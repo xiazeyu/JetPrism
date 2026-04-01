@@ -1,0 +1,10 @@
+defaults:
+  - highcut
+
+mean: 0.0
+std: 1.0
+threshold: 0.8
+buffer_multiplier: 2.0
+
+# Gaussian with cutoff at 0.8
+  

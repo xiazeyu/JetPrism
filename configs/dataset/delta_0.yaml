@@ -1,0 +1,4 @@
+defaults:
+  - delta
+
+center: 0.0 # Delta function centered at this value (default 0)

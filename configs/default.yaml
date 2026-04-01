@@ -1,0 +1,25 @@
+defaults:
+  - base_config
+  - path: default
+  - trainer: default
+  - dataset: single_mcpom
+  - detector: null
+  - model: cfm
+  - transform: default_pom
+  - _self_
+
+mode: TRAIN
+
+hydra:
+  run:
+    # Single run: outputs/YYYY-MM-DD/HH-MM-SS_<8-char-id>/
+    # The random ID matches the wandb run.id, so outputs/ folder <-> wandb run
+    # is a one-to-one mapping. Each process generates its own ID, so parallel
+    # SLURM single runs at the same second are always safe.
+    dir: outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}_${run_id:}
+  sweep:
+    # Sweep parent:  multirun/YYYY-MM-DD/HH-MM-SS/
+    # Sweep subdir:  {job_id}_{8-char-id}  e.g. 0_a3f8bc12
+    # job_id (0,1,2…) is unique per worker; random ID ties back to wandb.
+    dir: multirun/${now:%Y-%m-%d}/${now:%H-%M-%S}
+    subdir: ${hydra.job.id}_${run_id:}

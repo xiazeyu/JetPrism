@@ -1,0 +1,9 @@
+# Asymmetric bimodal — tests ability to capture a minority mode
+
+defaults:
+  - multipeak
+
+# (mean, std, weight)
+peaks: [[-1.0, 0.4, 0.85], [3.0, 0.3, 0.15]]
+
+# dominant peak vs small minority peak. Model must not mode-collapse.

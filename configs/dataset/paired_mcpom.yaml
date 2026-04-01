@@ -1,0 +1,6 @@
+# MC-POM paired mode (detector → particle-level reconstruction)
+
+defaults:
+  - mcpom
+
+paired: true

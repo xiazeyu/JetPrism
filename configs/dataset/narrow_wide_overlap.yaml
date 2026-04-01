@@ -1,0 +1,7 @@
+defaults:
+  - multipeak
+
+# (mean, std, weight)
+peaks: [[0.2, 0.3, 0.5], [0.0, 2.0, 0.5]]
+
+# one narrow peak mixed with one wide peak at the same location.

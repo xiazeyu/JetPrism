@@ -1,0 +1,8 @@
+defaults:
+  - compose
+
+transforms:
+  - _target_: jetprism.transforms.StandardScaler
+    mean: null
+    std: null
+    scale: 5.0

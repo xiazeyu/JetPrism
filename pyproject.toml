@@ -1,0 +1,35 @@
+[project]
+name = "jetprism"
+authors = [
+    { name = "Zeyu Xia", email = "zeyu.xia@virginia.edu" },
+    { name = "Tyler Kim", email = "tkj9ep@virginia.edu" },
+    { name = "Trevor Reed" },
+    { name = "Judy Fox" },
+    { name = "Geoffrey Fox" },
+    { name = "Adam Szczepaniak" },
+]
+license = { text = "MIT" }
+keywords = ["physics", "flow-matching", "generative-model", "particle-physics"]
+version = "0.1.0"
+description = "A generative modeling framework using flow matching and diffusion to learn particle physics event distributions, supporting both unconditional generation and detector unfolding."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastparquet",
+    "hepunits",
+    "hydra-core",
+    "hydra-joblib-launcher",
+    "lightning",
+    "numpy",
+    "pandas",
+    "particle",
+    "rich",
+    "scipy",
+    "torch",
+    "torchdyn",
+    "vector",
+    "wandb",
+    "ipykernel",
+    "matplotlib",
+    "pandas-stubs",
+]

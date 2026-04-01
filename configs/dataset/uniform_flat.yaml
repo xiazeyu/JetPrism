@@ -1,0 +1,7 @@
+# Uniform on [-2, 2] — flat distribution, no peaks
+
+defaults:
+  - uniform
+
+low: -2.0
+high: 2.0

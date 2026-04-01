@@ -1,0 +1,4 @@
+# MC-POM single mode (unpaired particle-level data)
+
+defaults:
+  - mcpom

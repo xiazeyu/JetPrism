@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+title: JetPrism
+type: software
+version: 0.1.0
+license: MIT
+repository-code: https://github.com/xiazeyu/JetPrism
+# doi: (paper DOI will be added after publication)
+# url: (arXiv link will be added after submission)
+authors:
+  - family-names: Xia
+    given-names: Zeyu
+    orcid: "https://orcid.org/0000-0003-0234-5857"
+    affiliation: University of Virginia
+  - family-names: Kim
+    given-names: Tyler
+    affiliation: University of Virginia
+  - family-names: Reed
+    given-names: Trevor
+    orcid: "https://orcid.org/0000-0002-4230-6687"
+    affiliation: University of Virginia
+  - family-names: Fox
+    given-names: Judy
+    orcid: "https://orcid.org/0000-0001-8198-4117"
+    affiliation: University of Virginia
+  - family-names: Fox
+    given-names: Geoffrey
+    orcid: "https://orcid.org/0000-0003-1017-1391"
+    affiliation: "University of Virginia; Indiana University Bloomington"
+  - family-names: Szczepaniak
+    given-names: Adam
+    orcid: "https://orcid.org/0000-0002-4156-5492"
+    affiliation: Indiana University Bloomington
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.19277778"
+    description: "Dataset and pre-trained checkpoints on Zenodo"

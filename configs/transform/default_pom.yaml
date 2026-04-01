@@ -1,0 +1,10 @@
+defaults:
+  - compose
+
+transforms:
+  - _target_: jetprism.transforms.FourParticleRepresentation
+  - _target_: jetprism.transforms.ReduceRedundantv1
+  - _target_: jetprism.transforms.StandardScaler
+    mean: null
+    std: null
+    scale: 5.0

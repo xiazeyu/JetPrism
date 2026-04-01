@@ -1,0 +1,7 @@
+# Exponential (scale=1) — skewed, one-sided distribution
+
+defaults:
+  - exponential
+
+scale: 1.0
+loc: 0.0

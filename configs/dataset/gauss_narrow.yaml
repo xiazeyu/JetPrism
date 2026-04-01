@@ -1,0 +1,7 @@
+# Narrow Gaussian
+
+defaults:
+  - gaussian
+
+mean: 1.0
+std: 0.1

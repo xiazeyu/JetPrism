@@ -1,0 +1,7 @@
+defaults:
+  - multipeak
+
+# (mean, std, weight)
+peaks: [[0.3, 0.3, 0.5], [1.4, 0.3, 0.5]] 
+
+# two tall ones, not too far apart.

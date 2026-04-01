@@ -1,0 +1,7 @@
+# Mock detector: medium
+# Medium general smearing (σ=0.2)
+
+defaults:
+  - general_smearing
+
+sigma: 0.2

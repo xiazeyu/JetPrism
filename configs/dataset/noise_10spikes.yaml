@@ -1,0 +1,13 @@
+defaults:
+  - highfreq
+
+random_seed: 42
+
+base_mean: 0.4
+base_std: 2.0
+
+noise_prob: 0.3  # 30% of data comes from the "noise" peaks
+num_noise_peaks: 10
+noise_std: 0.15  # narrow peaks
+# Where the noise peaks are scattered
+noise_range: [-4.0, 4.0]

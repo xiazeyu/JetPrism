@@ -1,0 +1,7 @@
+# Normal / standard Gaussian — easiest baseline / sanity check
+
+defaults:
+  - gaussian
+
+mean: 0.0
+std: 1.0

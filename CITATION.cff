@@ -4,8 +4,8 @@ type: software
 version: 0.1.0
 license: MIT
 repository-code: https://github.com/xiazeyu/JetPrism
-# doi: (paper DOI will be added after publication)
-# url: (arXiv link will be added after submission)
+doi: "10.48550/arXiv.2604.01313"
+url: "https://doi.org/10.48550/arXiv.2604.01313"
 authors:
   - family-names: Xia
     given-names: Zeyu
@@ -31,6 +31,12 @@ authors:
     orcid: "https://orcid.org/0000-0002-4156-5492"
     affiliation: Indiana University Bloomington
 identifiers:
+  - type: doi
+    value: "10.48550/arXiv.2604.01313"
+    description: "Preprint on arXiv"
+  - type: doi
+    value: "10.5281/zenodo.19364484"
+    description: "Software archive on Zenodo"
   - type: doi
     value: "10.5281/zenodo.19277778"
     description: "Dataset and pre-trained checkpoints on Zenodo"

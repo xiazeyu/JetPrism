@@ -8,7 +8,8 @@ JetPrism trains generative models (flow matching, diffusion (experimental)) to l
 
 **Python**: ≥ 3.12
 
-> **Paper**: Link will be added after arXiv ID is obtained.  
+> **Paper**: [arXiv:2604.01313](https://doi.org/10.48550/arXiv.2604.01313)  
+> **Software Archive**: [doi:10.5281/zenodo.19364484](https://doi.org/10.5281/zenodo.19364484)
 
 ---
 
@@ -333,13 +334,14 @@ See `pyproject.toml` for the complete dependency list and [agent.md](agent.md) f
 If you use JetPrism in your research, please cite:
 
 ```bibtex
-@software{xia2026jetprism,
-  title     = {JetPrism},
-  author    = {Xia, Zeyu and Kim, Tyler and Reed, Trevor and Fox, Judy and Fox, Geoffrey and Szczepaniak, Adam},
-  year      = {2026},
-  url       = {https://github.com/xiazeyu/JetPrism},
-  version   = {0.1.0},
-  license   = {MIT},
+@misc{xia2026jetprismdiagnosingconvergencegenerative,
+      title={JetPrism: diagnosing convergence for generative simulation and inverse problems in nuclear physics}, 
+      author={Zeyu Xia and Tyler Kim and Trevor Reed and Judy Fox and Geoffrey Fox and Adam Szczepaniak},
+      year={2026},
+      eprint={2604.01313},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2604.01313}, 
 }
 ```
 
